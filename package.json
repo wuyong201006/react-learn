@@ -1,0 +1,35 @@
+{
+  "name": "react-family",
+  "version": "1.0.0",
+  "description": "react-family",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "webpack --config webpack.dev.config.js",
+    "start": "webpack-dev-server --config webpack.dev.config.js --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"http://baidu.com\""
+  },
+  "keywords": [
+    "123456"
+  ],
+  "author": "wuyong",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
